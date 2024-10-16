@@ -5,9 +5,6 @@ labels:
   - pairs:
       app.kubernetes.io/name: diwise-web
     includeSelectors: true
-  - pairs:
-      opentelemetry: enabled
-    includeSelectors: false
 
 resources:
 - ./overlays/production
