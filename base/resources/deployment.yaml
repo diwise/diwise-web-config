@@ -20,6 +20,8 @@ spec:
               fieldPath: metadata.namespace
         - name: CONTROL_PORT
           value: "8000"
+        - name: CONTENT_SECURITY_POLICY
+          value: "report"
         - name: OAUTH2_REALM_URL
           valueFrom:
             secretKeyRef:
